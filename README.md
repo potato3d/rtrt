@@ -55,6 +55,8 @@ Here are some examples images generated:
 ![soft4](https://github.com/potato3d/rtrt/blob/main/imgs/soft_shadow_4_samples.png "Soft shadows with 4 samples per pixel (jittered)")
 ![soft16](https://github.com/potato3d/rtrt/blob/main/imgs/soft_shadow_16_samples.png "Soft shadows with 16 samples per pixel (jittered)")
 
+These images were generated using the companion Qt desktop application [rtrt-app](https://github.com/potato3d/rtrt-app)
+
 Performance was ok for the time (2006), considering many optimizations were missing (e.g. SIMD):
 
 ![speed table](https://github.com/potato3d/rtrt/blob/main/imgs/speed.png "Performance results")
