@@ -49,15 +49,15 @@ The kd-tree is constructed top to bottom using a greedy algorithm that tries to 
 
 Here are some examples images generated:
 
-![boat](https://github.com/potato3d/rtrt/imgs/boat.png "Boat with shadows")
-![platform](https://github.com/potato3d/rtrt/imgs/oil_platform.png "Oil platform with textures and shadows")
-![reflection](https://github.com/potato3d/rtrt/imgs/reflection.png "Sphere with reflection")
-![soft4](https://github.com/potato3d/rtrt/imgs/soft_shadow_4_samples.png "Soft shadows with 4 samples per pixel (jittered)")
-![soft16](https://github.com/potato3d/rtrt/imgs/soft_shadow_16_samples.png "Soft shadows with 16 samples per pixel (jittered)")
+![boat](https://github.com/potato3d/rtrt/blob/main/imgs/boat.png "Boat with shadows")
+![platform](https://github.com/potato3d/rtrt/blob/main/imgs/oil_platform.png "Oil platform with textures and shadows")
+![reflection](https://github.com/potato3d/rtrt/blob/main/imgs/reflection.png "Sphere with reflection")
+![soft4](https://github.com/potato3d/rtrt/blob/main/imgs/soft_shadow_4_samples.png "Soft shadows with 4 samples per pixel (jittered)")
+![soft16](https://github.com/potato3d/rtrt/blob/main/imgs/soft_shadow_16_samples.png "Soft shadows with 16 samples per pixel (jittered)")
 
 Performance was ok for the time (2006), considering many optimizations were missing (e.g. SIMD):
 
-![speed table](https://github.com/potato3d/rtrt/imgs/speed.png "Performance results")
+![speed table](https://github.com/potato3d/rtrt/blob/main/imgs/speed.png "Performance results")
 
 # Build
 Visual Studio projects available at visualstudio directory.
